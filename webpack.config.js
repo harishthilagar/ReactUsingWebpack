@@ -7,6 +7,7 @@ module.exports={
         path:path.resolve(__dirname,"./public"),
         filename:"main.js"
     },
+    devtool:'source-map',
     devServer:{
         port:5200,
         open:true,
